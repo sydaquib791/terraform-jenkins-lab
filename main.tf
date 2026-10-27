@@ -12,7 +12,7 @@ provider "aws" {
 }
  
 resource "aws_iam_user" "jenkins_user" {
-  name = "lucy-jenkins"
+  name = "SYED-jenkins"
   tags = {
     "description" = "Created by Jenkins"
   }
